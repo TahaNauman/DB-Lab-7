@@ -1,0 +1,40 @@
+# Official PHP .gitignore from GitHub
+
+# Composer dependencies
+/vendor/
+
+# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
+# You may choose to ignore it if you don’t want to lock dependencies.
+# composer.lock
+
+# PHPUnit
+.phpunit.result.cache
+.phpunit.cache/
+phpunit.xml
+phpunit.xml.dist
+
+# Build directories
+/build/
+
+# Runtime data
+*.log
+*.cache
+*.tmp
+*.temp
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# User uploads (optional)
+images/
+uploads/
